@@ -1,0 +1,1 @@
+$.each($('.js-actionDelete>button'), function(i, el){setTimeout(function(){$(el).trigger('click');setTimeout(function(){$('.delete-action').trigger('click');},100 + ( i * 100 ));},500 + ( i * 500 ));});
